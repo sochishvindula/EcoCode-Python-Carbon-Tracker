@@ -13,3 +13,27 @@ As a robotics engineer in Berlin, I noticed we optimize code for speed and memor
 
 ## ⚡ Quick Start
 
+from ecocode import eco_monitor
+
+@eco_monitor
+def your_function():
+# Your code here
+return "Hello, green world!"
+
+your_function()
+
+
+## 📊 What You Get
+
+- **Real-time energy monitoring** during code execution
+- **CO2 emissions calculation** based on regional grid
+- **Tree-hours needed** to offset your code's impact
+- **Easy decorator** for any function
+
+## 🔧 Installation
+
+pip install psutil
+python ecocode.py
+
+pip install psutil
+python ecocode.py
