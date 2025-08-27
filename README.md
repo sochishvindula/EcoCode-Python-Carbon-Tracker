@@ -34,6 +34,3 @@ your_function()
 
 pip install psutil
 python ecocode.py
-
-pip install psutil
-python ecocode.py
